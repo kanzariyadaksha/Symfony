@@ -1,0 +1,21 @@
+---
+# Site configuration data for FreshTaxHelp.com
+database: taxhelp1_leads
+dbuser: taxhelp1_leads
+dbpass: s}&]7?k^A{$r6[aPbf
+dbtable: server_contacts
+default_offer: 94
+fields:
+  - tax_debt
+  - first_name
+  - last_name
+  - email_address
+  - primary_phone
+  - alt_phone
+  - state
+  - enrolled_irs
+# the redirects aren't implemented yet
+redirects:
+    default: /thank-you.php
+    l3: /l3/thank-you.php
+    2step: /2step/thankyou/

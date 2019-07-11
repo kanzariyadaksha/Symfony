@@ -1,0 +1,32 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+<script>
+    $(function () {
+        $("#ckm_form").validate({
+            rules: {
+                tax_debt: "required",
+                state: "required",
+                first_name: "required",
+                last_name: "required",
+                email_address: {
+                    required: true,
+                    email: true
+                },
+                primary_phone: {
+                    required: true,
+                    minlength: 10
+                }
+            },
+            messages: {
+              primary_phone: {
+                  minlength: "Please enter valid phone"
+              }
+            }
+        });
+    })
+</script>
+<style>
+    .error {
+        color: red !important;
+        font-size: 12px !important;
+    }
+</style>

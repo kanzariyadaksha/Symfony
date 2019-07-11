@@ -1,0 +1,50 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: bill
+ * Date: 11/15/15
+ * Time: 11:28 PM
+ */
+
+$vars = array(
+    'affid' => 'affid',
+    'ckm_offer_id' => 'ckm_offer_id',
+    'oc' => 'oc',
+    'ckm_request_id' => 'reqid',
+    'reqid' => 'reqid',
+    's1' => 's1',
+    's2' => 's2',
+    's3' => 's3',
+    'subid' => 'SubID',
+    'neustar' => 'neustar',
+);
+
+// get and store any variables pushed in via the query string
+foreach ($vars as $field => $get) {
+    $_SESSION[$field] = ( isset($_GET[$get]) ) ? $_GET[$get] : '';
+    
+    if($field=="affid" && !isset($_GET[$get]) && isset($_GET['a'])){
+        $_SESSION[$field] = $_GET['a'];
+    }
+}
+
+// set any defaults before we build our form fields for insertion
+$_SESSION['ckm_offer_id'] = (!empty($_SESSION['ckm_offer_id'])) ? $_SESSION['ckm_offer_id'] : '34';
+
+// this lets us build a field for our referrer without it coming from the query string
+// we also only track the FIRST referrer seen by the page(s) -- considering redirection by VWO or others
+if(empty($_SESSION['referrer'])) {
+    $_SESSION['referrer'] = @$_SERVER['HTTP_REFERER'];
+}
+$vars['referrer'] = 'referrer';
+
+$formFields = '';
+
+foreach ($vars as $field => $get) {
+
+    $formFields .= <<<EOQ
+<input type="hidden" name="{$field}" value="{$_SESSION[$field]}" id="{$field}" />\n
+EOQ;
+
+}
+

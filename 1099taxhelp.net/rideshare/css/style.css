@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #190e49;
+    font-weight: 300;
+    background: url(../images/bg.png);
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+a{
+    text-decoration: none!important;
+    transition: all 0.5s ease;
+}
+
+.bg-primary{
+    background-color: #4026aa!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4026aa;
+    border-color: #4026aa;
+}
+.next {
+    color: #fff;
+    background-color: #4026aa!important;
+    border-color: #4026aa!important;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #4be0e0;
+    border-color: #4be0e0;
+}
+
+.navbar {
+    padding: 27px 4% 22px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.16);
+}
+.navbar-brand {
+    line-height: 0;
+    padding: 0;
+    margin-right: 0;
+}
+.header-call-info{
+    color: #fff;
+    text-align: center;
+} 
+.header-call-info label{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header-call-info a:link, .header-call-info a:visited{
+    color: #fff;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.header-call-info a:hover{
+    color: #4be0e0;
+}
+
+.taxhelp-for-drivers{
+    padding: 60px 0 0;
+}
+.taxhelp-for-drivers h1{
+    margin: 19px 0;
+    color: #190e49;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.taxhelp-for-drivers h1 span{
+    display: block;
+    font-weight: 300;
+}
+.taxhelp-for-drivers  h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.taxhelp-for-drivers  h3 span{
+    font-style: italic;
+}
+.taxhelp-for-drivers p:last-of-type{
+    margin-bottom: 0px;
+}
+.car-tax-image{
+    margin: 120px auto 0;
+}
+
+.tax-form{
+    background: #cfd8dc;
+    padding: 30px 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin-bottom: 60px;
+    max-width: 480px;
+}
+
+.tax-form .form-title {
+    color: #190e49;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.tax-form .form-group {
+    margin-bottom: 0px;
+}
+.tax-form .form-control{
+    border-radius: 3px;
+    border: 1px solid #bec8cc;
+    background-color: #ffffff;
+    color: #5438c8;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 30px;
+    padding: 5px 8px;
+    margin-bottom: 30px;
+    box-shadow: none!important;
+}
+.tax-form .form-control::placeholder{
+    color: #5438c8;
+}
+.tax-form .form-control::-webkit-input-placeholder{
+    color: #5438c8;
+}
+.tax-form .form-control::-moz-placeholder{
+    color: #5438c8;
+}
+.tax-form .submit{
+    height: 40px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.14px;
+    line-height: 17px;
+    padding: 10px 50px 10px 36px;
+}
+.submit span{
+    display: inline-block;
+    position: relative;
+}
+.submit span:after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 11px;
+    height: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+    background: url('../images/arrow-right-circle.png') no-repeat;
+}
+form .terms {
+    display: block;
+    margin: 0 20px;
+}
+form .terms p {
+    color: #190e49;font-size: 10px;line-height: 14px;
+}
+.emailCompailance {
+    display: block;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+.emailCompailance p {
+    color: #190e49;font-size: 12px;line-height: 14px;position: relative;padding-bottom: 5px;
+}
+.emailCompailance p:before {content: "";display: inline-block;background: url('../images/lock.png') no-repeat;width: 12px;height: 16px;margin-right: 8px;}
+.emailCheckbox label {
+    color: #190e49;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+/*checkbox css start*/
+
+.chkbox {display: block;position: relative;padding-left: 20px;margin-bottom: 12px;cursor: pointer;font-size: 22px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.chkbox input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
+.checkmark {position: absolute;top: 0;left: 0;height: 15px;width: 15px;background-color: #b4b4b4;border-radius: 2px;}
+.chkbox:hover input ~ .checkmark {background-color: #ccc;}
+.chkbox input:checked ~ .checkmark {background-color: #2196F3;}
+.checkmark:after {content: "";position: absolute;display: none;}
+.chkbox input:checked ~ .checkmark:after {display: block;}
+.chkbox .checkmark:after {left: 5px;top: 2px;width: 5px;height: 10px;border: solid white;border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+
+/*checkbox css end*/
+
+.selectbox select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand{
+	display: none;
+}
+.selectbox{
+    position: relative;
+}
+.selectbox:after {
+    content: "";
+    width: 8px;
+    height: 12px;
+    position: absolute;
+    right: 15px;
+    background: url(../images/select-arrow.png);
+    top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.testimonial-wrapper {
+    background: #2FC5CC;
+    padding: 62px 0px 50px;
+    color:#fff;
+}
+
+.testimonial-inner {
+    margin: 0px auto;
+}
+.testimonial-inner .carousel-inner {
+    padding: 0 15%;
+}
+.testimonial-content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.testimonial-item::before, .testimonial-item::after{
+    content: "";
+    width: 27px;
+    height: 19px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.testimonial-item::before{
+    background-image: url("../images/quote-start.png");
+    right: calc(115% - 30px)
+}
+.testimonial-item::after{
+    background-image: url("../images/quote-end.png");
+    left: calc(115% - 30px)
+}
+.testimonial-by{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px
+}
+.testimonial-inner .carousel-indicators{
+    bottom: -50px;
+}
+.testimonial-inner .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: #2aa6ac;
+    opacity: 1;
+}
+.testimonial-inner .carousel-indicators li.active{
+    background-color: #ace8eb;
+}
+.independant-contactor, .no-saving , .help-for-uber-driver{
+    padding:  109px 0 65px;
+    min-height: 564px;
+    background-image: url("../images/paying-taxes.png");
+    background-size: 50%;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
+.no-saving{
+    background-image: url("../images/no-saving.png");
+    background-position: -70px;
+}
+
+.help-for-uber-driver{
+    background-image: url("../images/i-can-help.png");
+    background-position: calc(100% + 40px)
+}
+
+.independant-contactor h2, .no-saving h2, .help-for-uber-driver h2{
+    color: #311b92;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.independant-contactor h2 span, .no-saving h2 span, .help-for-uber-driver h2 span{
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.info-text{
+    color: #52636c;
+}
+
+
+.footer{
+    background-color: #4026aa;
+    padding: 50px 0 35px;
+    color: #fff;
+}
+
+.quick-links a:link, .quick-links a:visited{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.quick-links a:hover{
+    color: #4be0e0;
+}
+.quick-links .list-inline-item:not(:last-child){
+    border-right: 1px solid #fff;
+    margin-right: 20px;
+    padding-right: 20px;
+    line-height: 0;
+}
+
+.footer-text{
+    max-width: 80%;
+    margin: 0px auto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+.footer-text p{
+    margin-bottom: 5px;
+}
+
+.copyright{
+    margin-top: 31px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.copyright a:link, .copyright a:visited{
+    color: #fff!important;
+}
+
+.copyright a:hover{
+    color: #4be0e0!important
+}
+label.error {
+    font-size: 12px;
+    color: #e81e1e;
+    line-height: 12px;
+    font-weight: 500;
+    display: table!important;
+    position: relative;
+    bottom: 25px;
+    height: 0;
+    width: 100%;
+    /*position: absolute;
+    bottom: -5px;
+    margin-top: 10px;*/
+    
+}
+
+.chkbox label.error {
+    bottom: -2px;
+}
+
+@media(min-width: 1200px){
+    .independant-contactor, .no-saving, .help-for-uber-driver{
+        background-size: contain;
+    }
+    .no-saving, .help-for-uber-driver{
+            margin-top: -80px;
+    } 
+    .tax-form .form-title{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .car-tax-image{
+        margin: 20px auto 0;
+    }
+
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+     .tax-form{
+        padding: 30px 10px;
+    }
+    .emailCheckbox label{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:991px){
+    .independant-contactor, .no-saving, .help-for-uber-driver{
+        background: none;
+        text-align: center;
+        padding: 95px 0 0px;
+        min-height: inherit;
+    }
+    .independant-contactor img, .no-saving img, .help-for-uber-driver img{
+        width: 402px;
+        margin: 20px auto 0;
+    }
+    .independant-contactor h2, .no-saving h2, .help-for-uber-driver h2{
+        margin-bottom: 30px;
+    }
+    .taxhelp-for-drivers {
+        padding: 50px 0 0;
+    }
+    .help-for-uber-driver{
+        margin-bottom: 15px;
+    }
+    .tax-form{
+        margin-bottom: -40px;
+    }
+    .car-tax-image {
+        width: 330px;
+        margin: 0px auto;
+        display: table;
+    }
+    .testimonial-by {
+        text-align: right;
+    }
+    .footer-text{
+        max-width: 95%;
+    }
+    
+}
+
+@media(max-width:767px){
+    
+}
+@media(max-width:576px){
+    .form-details{
+        display:none;
+    }
+    .form-details-active .form-details{
+        display: block;
+    }
+    .header-call-info {
+        margin: 0 -25px;
+        width: auto;
+    }
+    .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .tax-form {
+        margin-bottom: 0;
+    }
+    .tax-form .form-group{
+        padding: 0;
+    }
+    .testimonial-inner .carousel-inner {
+        padding: 0 10px;
+    }
+    .testimonial-content{
+        margin-bottom: 0;
+    }
+    .testimonial-item{
+        padding: 55px 0 0px;
+        margin-bottom: 30px;
+    }
+    .testimonial-wrapper{
+        padding-top: 0;
+        padding-bottom: 65px;
+    }
+    .testimonial-item::before, .testimonial-item::after{
+        width: 18px; 
+        height: 14px;
+    }
+    .testimonial-item::before {
+        bottom: inherit;
+        top: 30px;
+        right: calc(100% - 20px);
+    }
+    .testimonial-item::after {
+        bottom: -30px;
+        left: calc(100% - 20px);
+    }
+    .testimonial-by{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .independant-contactor, .no-saving, .help-for-uber-driver{
+        text-align: left;
+    }
+    .independant-contactor{
+        padding-top: 75px;
+    }
+    .no-saving{
+        padding-top: 42px;
+    }
+    .help-for-uber-driver{
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+    .quick-links{
+        text-align: center;
+    }
+/*    .quick-links .list-inline-item:not(:last-child){
+        border-right: 0;
+        display: block;
+        padding: 0;
+        margin: 0 0 35px;
+    }*/
+    .quick-links li:after{
+        display: none;
+    }
+    .footer {
+        padding: 30px 0 70px;
+    }
+
+    .tax-form {
+        text-align: left;
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+    .tax-form .form-title {
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0px 30px;
+        display: block;
+    }
+    
+    .tax-form .form-control {   
+        height: 50px;
+        padding: 5px 23px;
+        font-size: 20px;
+        margin-bottom: 30px;
+
+    }
+    .selectbox:after{
+        width: 11px;
+        height: 16px;
+        top: 18px;
+    }
+    
+}
+
+@media(max-width:479px){
+    .emailCompailance,.emailCheckbox label {margin: 0;}
+    
+    .terms {text-align: left;margin: 0;}
+    .quick-links .list-inline-item:not(:last-child) {margin-right: 0px;padding-right: 4px;}
+    .quick-links a:link, .quick-links a:visited {font-size: 14px;}
+}
+@media(max-width:375px){
+    .quick-links a:link, .quick-links a:visited {font-size: 13px;}
+}
+@media(max-width:320px){
+    .quick-links a:link, .quick-links a:visited {font-size: 10px;}
+}

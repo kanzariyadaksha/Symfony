@@ -1,0 +1,10 @@
+{
+	"autoload": {
+		
+		"psr-4": {
+        	"Codecourse\\": "app/Codecourse",
+        	"Stream\\": "app/Stream"
+    	}
+
+	}
+}

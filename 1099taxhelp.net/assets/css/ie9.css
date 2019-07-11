@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wraper{
+    background:url("../images/bg.png") no-repeat;
+    margin:0;
+    padding:0;
+}
+.head-one{
+    font-size:25px;
+    float:none;
+    width:100%;
+    margin:0;
+}
+.head-one span{
+    font-size:38px;
+}
+.point strong{
+    margin:8px 0 0 0;
+    font-size:13px;
+}
+.form p{
+    padding:0 0 10px;
+}
+.about-ban strong{
+    font-size:35px;
+}

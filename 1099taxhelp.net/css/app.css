@@ -1,0 +1,178 @@
+#privacy {padding:20px;}
+#privacy h5 {font-size: 16px; font-weight: 600; color: #4d4d4f;}
+#privacy p,
+#privacy li {font-size:12px; line-height: 1.2em; font-weight: 300; color: #4d4d4f;}
+
+.form-content {margin:0 auto; width:90%;}
+
+.progressWidth{margin:auto;width:240px;padding-bottom:20px;margin-top:30px}
+.prograsLable{color:#333;display:inline-block;float:left;font-size:14px;line-height:12px}
+.progress{background-color:#e4e4e4;border:1px solid #A29E9E;height:14px;margin-top:8px;margin-left:65px}
+.progress .meter{background:transparent linear-gradient(#9BE586,#42B823) repeat scroll 0 0!important;display:block;height:100%}
+.widthLimit{margin:auto;}
+.step{width:100%;display:none;}
+.step1{display:block}
+.panel{padding-bottom:50px;}
+.btn-submit{margin-top:30px; max-width: 100%;}
+.terms{text-align:justify;font-size:small; margin:auto 30px;}
+
+#thank-you-wrapper {margin-top:30px;}
+#thank-you-wrapper p {color:#1c88c9; font-size:30px; margin:30px 50px;}
+#thank-you-wrapper p.large {font-size:40px; font-weight:bold;}
+
+footer p {font-size:14px; color: #fff;}
+footer a {color: #fff; text-decoration: none;}
+footer a:hover {text-decoration: underline; color: #fff;}
+
+
+.ty-submit{
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+  color: #666;
+}
+
+@media screen and (max-width: 667px) {
+ 
+  .progressWidth {margin-top:10px;}
+  #thank-you-wrapper p.large {font-size:30px; line-height: 1.2em;}
+  .btn-submit {max-width: 90%; margin:15px auto;}
+  .widthLimit {width: 90%;}
+}
+
+
+/* from old site */
+.news-strip{background-color:#f4f4f4;border-bottom:7px solid #ccc;border-top:2px solid #ccc;padding:0}
+.news-strip p{padding:0;margin:0}
+.news-strip div{padding:38px 0}
+.news-strip img{height:32px}
+.interested{padding:40px 0; background: #fff;}
+.interested h2{font-weight:600}
+.interested .item{padding:0 35px;margin-top:64px}
+.interested p{font-weight:700;text-align:center;font-size:16px;line-height:1.5em}
+.help-today{background-color:#09548d;color:#fff;padding:40px 0 0;}
+.help-today h2{font-size:34px}
+.help-today button{width:100%;height:50px;border:#fff 3px solid;background-color:#09548d;margin:20px auto 10px;display:block;font-weight:600;font-size:24px;max-width: 485px;}
+.help-today a:focus,.help-today a:hover{text-decoration:none}
+.negotiate{background-color:#f4f4f4}
+.negotiate h1{text-transform:uppercase;margin:80px 0}
+.negotiate .content{padding-top:15px}
+.negotiate table{margin:0 auto;max-width:350px;width:100%}
+.negotiate table td{border:#000 solid 1px;padding:5px}
+.negotiate table td.text-orange{color:#fc6b34}
+.negotiate table .highlighted{background-color:#fecb9c}
+.negotiate table .highlighted td.text-red{color:#fc202b}
+.negotiate table .footnote td{border:none}
+.truth{background-image:url(../images/truth.jpg);background-repeat:no-repeat;background-size:cover;border-bottom:7px solid #fff;color:#fff; padding:30px 0 50px; margin-bottom:0px !important;}
+.truth button{height:50px;border:none;background-color:#09548d;margin:10px 0;font-size:16px;max-width:530px;border-radius:10px; color: #fff; padding-left:50px; padding-right:50px; font-weight:bold}
+.truth button:hover {background-color: #0076a3;}
+.negotiate button{height:50px;border:none;background-color:#09548d;margin:10px 0;font-size:16px;max-width:530px;border-radius:10px; color: #fff; padding-left:50px; padding-right:50px; font-weight:bold}
+.negotiate button:hover {background-color: #0076a3;}
+.footnote td {background:#f4f4f4 !important;}
+.footnote h6, .sub-negotiate h6 {color:#939393; font-size:12px;}
+.img-circle {border-radius: 50%; margin-bottom: 15px;}
+.news-strip-logo{background-color: #fff !important;}
+
+@media (max-width:780px) {
+  .news-strip{padding:0 20px}
+  .news-strip div{padding:38px 5px}
+  .truth{padding:45px 30px}
+}
+.truth{background-image:url(../images/truth.jpg);background-repeat:no-repeat;background-size:cover;border-bottom:7px solid #fff;color:#fff; padding:30px 0 50px; margin-bottom:30px;}
+.truth button{
+  background: #c41f2c; /* Old browsers */
+  background: -moz-linear-gradient(top, #c41f2c 0%, #960608 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c41f2c 0%,#960608 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c41f2c 0%,#960608 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c41f2c', endColorstr='#960608',GradientType=0 );
+  height:50px;border:none;margin:10px 0;font-size:16px;max-width:530px;border-radius:10px; color: #fff; padding-left:50px; padding-right:50px; font-weight:bold}
+.truth button:hover {opacity: 0.9;}
+.negotiate button{height:50px;border:none;background-color:#09548d;margin:10px 0;font-size:16px;max-width:530px;border-radius:10px; color: #fff; padding-left:50px; padding-right:50px; font-weight:bold}
+.negotiate button:hover {background-color: #0076a3;}
+ .truth{padding:45px 30px}
+ #form-container .error{
+     margin: 5px 0 !important;
+     
+ }
+ 
+@media screen and (min-width:320px) and (max-width:767px) {
+    .form-control.signchange{
+     margin-left: 0px !important;
+    }
+    
+    label.error{
+        margin-left: 0px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .toll-free .call-now , .tab-pane .tab-des-status{
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+ }
+
+ .footer-bg{
+  background: #5AA50C;
+  color: #fff;
+  padding: 30px 0 9px;
+}
+.footer_text{
+    color: #939393;
+    font-weight: 300;
+  font-size: 12px !important;
+}
+.footer_text1{
+  font-size: 12px;
+  color: #bebebe;
+}
+.footer_color{
+    background-color: #242424;
+    padding-top: 30px;
+}
+.form-control.signchange{
+    margin-left: 20%;
+}
+
+/*#logo{
+  width: 50% ;
+  display: inline-block;
+  float: left;
+}
+
+.call-right{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 0px !important;
+}*/
+
+header.row{
+  max-width: 100% !important;
+  padding-left:15px;
+  padding-right: 15px; 
+}
+
+@media screen and (min-width:1200px) {
+  
+  header.row{
+    max-width: 75rem !important;
+    padding-left:15px;
+    padding-right: 15px; 
+  }
+
+}
+
+
+header.fsi3 #logo{
+  width: 50% ;
+  display: inline-block;
+  float: left;
+}
+
+.news-strip-logo img{height:79px}
+
+.p-link{
+    font-size: 13px !important;
+}

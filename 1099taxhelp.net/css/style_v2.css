@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+
+.thankspage .container{
+    width: 100% !important;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    padding: 0 30px;
+}
+.header-inner {
+    padding: 10px 0 5px;
+}
+.pad0 {
+    padding: 0;
+}
+
+
+header{
+    padding: 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.logo img{
+    max-width: 220px;
+    height: auto;
+}
+
+.call-box {
+    text-align: right;
+}
+a:hover{
+    text-decoration:none;
+}
+
+.call-text {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666;
+    font-weight: 600;
+}
+.call-number {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'open sans',sans-serif;
+    font-weight: 700 !important;
+    color: #d94a21 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.thankspage {
+    font-size: 20px !important;
+    color: #000;
+    max-width: 80%;
+    margin: 0px auto;
+    border: 1px solid #ddd;
+}
+.thanks-title {
+    font-size: 33px;
+    line-height: 45px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.thanks-subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+}
+.thanks-desc {
+    font-size: 23px;
+    margin-bottom: 30px;
+    margin: 0px auto 10px;
+    max-width: 90%;
+}
+/*.thanks-desc:first-line {
+    font-size: 23px;
+    text-align: center;
+}*/
+.thanks-container{
+    max-width: 55%;
+    margin: 0px auto;
+}
+.thanks-item {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.thanks-item img {
+    display: table;
+    margin: 0px auto 5px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+.thanks-item figcaption {
+    font-size: 17px;
+    line-height: 20px;
+    display: block;
+    margin: 0px auto;
+    font-weight: normal;
+    max-width: 170px;
+}
+.thanks-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.thanks-info-title {
+    font-size: 20px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.thanks-list {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.thanks-list li {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    list-style-type: none;
+    position: relative;
+}
+.thanks-list li:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 50%;
+    left: 7px;
+    top: 9px;
+}
+.bonus-offer {
+    text-align: center;
+}
+.bonus-title {
+    display: inline-flex!important;
+    display: -ms-inline-flexbox!important;
+    align-items: center;
+    -ms-flex-align: center!important;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0;
+}
+.bonus-offer .bonus-title:before{
+    content:"";
+    height:64px;
+    width:64px;
+    background: url("../images/offer-arrow.png");
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.offer-image {
+    display: table;
+    margin: 0px auto;
+}
+.piggy-img {
+    margin-top: -50px;
+    max-width: 225px;
+}
+.bonus-subtitle {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.footer-detail{
+    font-size: 12px!important;
+    text-align: left;
+    color: rgba(148, 146, 146, 0.8);
+    margin: 40px auto 15px;
+}
+.footer-bottom {
+    font-size: 12px;
+    color: #949292;
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f0;
+}
+.copyright {
+    font-size: 12px;
+    line-height: 16px;
+}
+.footer-nav {
+    float: right;
+}
+
+.footer-bottom a:link, .footer-bottom a:visited{
+    color: #949292;
+}
+.footer-bottom a:hover{
+    color: #000;
+}
+.footer-nav li:not(:last-of-type) {
+    border-right: 1px solid #f0f0f0;
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .logo img {
+        margin: 0px auto;
+    }
+    .call-box {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .thankspage {
+        max-width: 100%;
+    }
+    .piggy-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+    .thankspage .container {
+        padding: 0px 15px;
+    }
+    .thanks-container{
+        max-width: inherit;
+    }
+    .piggy-img {
+        margin-top: -40px;
+    }
+    
+    .bonus-subtitle {
+        margin-bottom: 0;
+    }
+    .footer-nav {
+        float: none;
+        margin-top: 10px;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+}

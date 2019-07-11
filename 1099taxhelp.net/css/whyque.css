@@ -1,0 +1,122 @@
+.step-1-title.step1Title {font-size: 22px !important;line-height: 24px !important;padding-bottom: 15px;}
+.step-1-title.step1Title {width: 75% !important;display: table;margin: 0 auto;text-align: center;}
+.checkbox label {font-size: 16px !important;margin: 0;font-weight: normal;line-height: 21px !important;width: 75% !important;}
+.checkbox.other_type {width: 100%;}
+.checkbox.other_type input {height: auto !important;padding: 6px 12px !important;width: 75% !important;border: 1px solid #c8cbcb !important;border-radius: 5px !important;background: no-repeat 99%;background-size: 27px;}
+.whyQue.tab-pane .privacy-text {padding-left: 0 !important;text-align: center !important;font-size: 12px !important;line-height: 18px;margin-bottom: 0px;font-weight: normal !important;color: #B4B4B4 !important;padding: 10px 0;margin: 0 auto !important;width: 100%;}
+.checkbox {float: left;width: 50%;margin-top: 0;}
+.checkbox+.checkbox {margin-top: 0 !important;}	
+.checkbox.other_reason {width: 100%;}
+.whyQue .checkbox {margin-top: 0;}
+.whyQue .checkbox label input {height: auto;border: 0;border-radius: 0;box-shadow: none;}
+.whyQue .tab-details.pt-space {width: 75%;margin: 0 auto;}
+.whyQue .green-form {display: table;margin: 0 auto;text-align: center;}
+.whyQue .gradient {background: #f4991e;background: -moz-linear-gradient(top, #f4991e 0%, #ffc001 100%) !important;background: -webkit-linear-gradient(top, #f4991e 0%,#ffc001 100%) !important;background: linear-gradient(to bottom, #f4991e 0%,#ffc001 100%) !important;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4991e', endColorstr='#ffc001',GradientType=0) !important;color: #fff !important;border-radius: 10px !important;border: white 1px solid !important;}
+.gradient.btn.btn-lg.next.lf4-step1.vwo-step-1 {clear: both;text-align: center;margin: 0 auto !important;display: table;}
+p.privacy-text {text-align: center !important;}
+a.orange_btn.btn.btn-lg.next.btn-next.lf4-step5 {clear: both;text-align: center;margin: 20px auto 25px !important;display: table;}
+/*Premium Image Css*/
+
+.chk_description p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    text-align: left;
+    margin-top: 0px;
+    color: #333 !important;
+    margin-top: 25px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.offer-section {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    padding-top: 16px !important; 
+    padding-bottom: 10px !important;
+}
+
+.offer-desc {
+    font-weight: bold;
+    padding: 30px 20px 0;
+    font-size: 18px;
+}
+.offer-desc em{
+    display: block;
+    font-style: italic;
+}
+.que-1 strong, .question-style {
+    font-weight: bold!important;
+    font-size: 24px!important;
+}
+
+.dwnlArrow {
+    position: relative;
+}
+.arrow_step2 .dwnlArrow:after{
+   left: 59px;
+   top: 47px;
+   background-size: cover;
+   transform: scaleX(-1) rotate(45deg);
+}
+
+.dwnlArrow:after {
+    content: "";
+    background: url(../images/arrow-bottom.png);
+    width: 92px;
+    height: 105px;
+    display: block;
+    position: absolute;
+    left: -89px;
+    top: -4px;
+    background-size: cover;
+    transform: scaleX(-1) rotate(-7deg);
+}
+.arrow_step3 .dwnlArrow:after{
+    left: -91px;
+    top: -4px;
+    background-size: cover;
+    transform: scaleX(-1) rotate(-7deg);
+}
+.arrow_step4 .dwnlArrow:after{
+    left: -91px;
+    top: -4px;
+    background-size: cover;
+    transform: scaleX(-1) rotate(-7deg);
+
+}
+.arrow_step5 .dwnlArrow:after{
+    left: -91px;
+    top: -4px;
+    background-size: cover;
+    transform: scaleX(-1) rotate(-7deg);
+
+}
+@media screen and (max-width: 767px) {
+#lf4-step1-1 .step-1-title.step1Title {font-size: 18px !important;line-height: 24px !important;margin-bottom: 10px !important;}
+#lf4-step1-1 .checkbox label {font-size: 14px !important;}
+    .dwnlArrow:after{
+        display: none
+    }
+    .offer-desc {
+        font-weight: bold;
+        padding: 30px 20px 0;
+        font-size: 13px;
+    }
+    .step-1-title.step1Title {width: 100% !important;}
+    .whyQue .tab-details.pt-space {width: 90%;}
+    h1.tab-head.theme-color.text-center,h1.text-center.theme-color.visible-xs {margin-top: 0 !important;}
+    .hero-banner #step-2 .box-layout .inner-box h2 {margin-bottom: 0 !important;}
+    .hero-banner #step-2 .box-layout .inner-box .btn-next {margin-top: 50px !important;}
+    #step-2 .btn-next {float: none;width: 100% !important;margin: 0 !important;}
+}
+
+@media screen and (max-width: 568px) {
+.checkbox {width: 100%;}
+
+
+
+}

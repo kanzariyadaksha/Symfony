@@ -1,0 +1,2505 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2014, 9:35:35 AM
+    Author     : N
+*/
+body {
+    margin: 0;
+    color: #565656;
+    font: 14px 'Roboto',sans-serif;
+    padding: 0;
+}
+.error {
+    border: red 1px solid !important;
+    background-color: #F2DEDE;
+}
+img{
+    max-width:100%;
+    border:0;
+}
+/*Placeholder*/
+
+input::-webkit-input-placeholder { color:#264472; opacity: 1; }
+input::-moz-placeholder { color:#264472; opacity: 1; }  /*firefox 19+*/
+input:-ms-input-placeholder { color:#264472; opacity: 1;} /* ie */
+input:-moz-placeholder { color:#264472; opacity: 1; }
+/*End Reset*/
+.clearfix{
+    clear: both;
+}
+.wraper{
+    background:url("../images/main-bg.png") no-repeat scroll center center/cover;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 960px;
+    margin:0 auto;
+    background:#fff;
+    box-shadow: 0 0 10px #ccc;
+    overflow: hidden;
+}
+.holder{
+    max-width: 1100px;
+    margin:0 auto;
+    overflow: hidden;
+    position:relative;
+}
+.header{
+    width:98%;
+    float:left;
+    box-shadow:0 0 10px #ccc;
+    float:left;
+    margin:0;
+    padding:20px 1%;
+}
+.logo{
+    float:left;
+}
+.call-now{
+    text-transform: uppercase;
+    font-size: 18px;
+    color:#264472;
+}
+.number{
+    font-size:36px;
+    color:#e44913;
+    line-height: 40px;
+}
+.header-sec{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.header-right{
+    float:right;
+    margin:10px 0 0;
+}
+.banner-wrap{
+    width:100%;
+    float:left;
+    margin:0;
+    border-bottom: 1px solid #ededed;
+    padding:0;
+}
+.left{
+    float: left;
+    width: 56%;
+    margin: 0;
+    text-align: center;
+    padding:0;
+}
+.head-one{
+    font-size:26px;
+    color:#264472;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 2%;
+    margin:30px 0 0 2%;
+    position:relative;
+    z-index:1;
+    float:left;
+}
+.head-one span{
+    color:#8db246;
+    font-size: 40px;
+}
+.head-sec{
+    font-size:20px;
+    padding: 0 2%;
+    color: #4f4f4e;
+    line-height: 10px;
+    position:relative;
+    z-index:1;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.points{
+    width:96%;
+    padding:0 2% 3% 2%;
+    float:left;
+    position:relative;
+    margin:-5px 0 0;
+}
+.point{
+    width:50%;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.point img{
+    float:left;
+}
+.point strong{
+    margin: 8px 0 0 10px;
+    float: left;
+    text-transform: uppercase;
+    color:#264472;
+    font-size:14px;
+    font-weight: bold;
+}
+.man {
+    margin:70px 0 0;
+    position: relative;
+    z-index: 0;
+}
+.man img{
+    width:100%;
+    float:left;
+    margin:-95px 0 -30px;
+}
+.point-control{
+    margin:0 0 50px;
+}
+.right{
+    width:44%;
+    float:right;
+    background: #264472;
+}
+.thank-wrap{
+    width:40%;
+    float: right;
+    display:none;
+    padding:20px 2%;
+    background:#264472;
+    min-height:670px;
+}
+.thank-wrap h1 {
+    color: #fff;
+    font-size: 38px;
+    line-height: 30px;
+    margin:20px 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.thank-wrap > p {
+    color: #fff;
+    font-size: 15px;
+    margin: 30px 0 0;
+    text-align: center;
+}
+.second-right{
+    display:none;
+}
+.form-head{
+    width:100%;
+    float:left;
+    background: #325d9e;
+    padding:3% 0 4% 0;
+    position: relative;
+}
+.inner-head{
+    background: #264472;
+    margin:0px 5%;
+    border-radius: 5px;
+    padding:10px 4%;
+}
+.inner-head h1{
+    font-size: 30px;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 38px;
+    margin:0;
+}
+.innver-head h1 span{
+    color:#91c430;
+}
+.inner-head p{
+    font-size:16px;
+    color:#fff;
+    margin:8px 2% 0 2%;
+    text-align: center;
+}
+.inner-head span{
+    color:#9cd137;
+}
+.arrow {
+    position: absolute;
+    right: 12px;
+    top: 140px;
+}
+.form{
+    padding:4% 4% 0 4%;
+    width:92%;
+    float:left;
+    margin:5px 0 0;
+}
+
+.form label{
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400;
+    width:100%;
+    margin:0 0 7px 5px;
+    float:left;
+}
+.form .form-heading{
+    font-size: 18px;
+    color:#fff;
+    font-weight: 400;
+    width:100%;
+    margin:0 0 5px 5px;
+    float:left;
+}
+.form-control{
+    width:100%;
+    padding:0;
+    margin:0 0 5px;
+}
+.form select{
+    width:100%;
+//-webkit-appearance: none;
+    padding:10px 2%;
+    border-radius: 5px;
+    font-size:13px;
+    color:#264472;
+    border: 1px solid #152b4c;
+    font-weight: 400;
+}
+.form input{
+    width:92%;
+    padding:12px 4%;
+    border-radius: 5px;
+    font-size:13px;
+    color:#264472;
+    border: 1px solid #152b4c;
+    font-weight: 400;
+}
+.btn{
+    background:url(../images/btn-bg.png);
+    border: 1px solid #003651;
+    border-radius: 5px;
+    color: #fff;
+    margin:16px 0 0;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 12px 0;
+    text-shadow: 1px 1px #af4308;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.logos{
+    width:92%;
+    margin:0;
+    padding:20px 4%;
+    border-bottom: 1px solid #c8e1ea;
+    float:left;
+}
+.logos strong{
+    font-size:24px;
+    color:#2f2f2e;
+    font-weight: 400;
+    margin:10px 0 0;
+    float:left;
+}
+.logos ul{
+    padding:0;
+    margin:0;
+}
+.logos ul li{
+    list-style: none;
+    display: inline;
+}
+.logos ul li a{
+    background:url(../images/logos.png);
+    width: 9%;
+    padding: 15px 1%;
+    text-indent: -999px;
+    float: left;
+    margin:0 0 0 20px;
+    cursor: pointer;
+}
+.logos ul li .yahoo{
+    background-position:20% 0;
+    width:10%;
+}
+.logos ul li .ask{
+    background-position:37% 0;
+    width:6%;
+}
+.logos ul li .bing{
+    background-position:52% 0;
+}
+.logos ul li .ver {
+    background-position: 75% 0;
+    width: 13%;
+}
+.logos ul li .bbb {
+    background-position:99% 0;
+    width: 10%;
+}
+.work-wrap{
+    float:left;
+    width:96%;
+    margin:0;
+    background: #fff;
+    padding:50px 2% 65px 2%;
+    border-top: 1px solid #c8e1ea;
+    border-bottom: 1px solid #c8e1ea;
+}
+.work-head{
+    font-size: 32px;
+    color:#646464;
+    text-transform: uppercase;
+    width:100%;
+    text-align: center;
+    float: left;
+}
+.columns-wrap{
+    width:100%;
+    float:left;
+    margin:35px 0 0;
+}
+.column{
+    width:25%;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    float:left;
+}
+.column img{
+    margin: 0 0 20px;
+}
+.col-head{
+    font-size: 17px;
+    color:#202020;
+    width:100%;
+    float:left;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.column p{
+    color:#505050;
+    font-size: 13px;
+    font-weight: 500;
+    padding:0 4%;
+}
+.col-arrow{
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+.statement-wrap{
+    background: #ebf4f8;
+    float:left;
+    width:76%;
+    padding:5% 12%;
+}
+.state-head{
+    color:#3f3e3e;
+    font-size:32px;
+    margin:0 0 35px;
+    width:100%;
+    text-align: center;
+    float: left;
+    text-transform: uppercase;
+}
+.state-left{
+    width:48%;
+    margin:0;
+    float:left;
+    padding:0;
+}
+.state-col{
+    width:100%;
+    float:left;
+}
+.state-col .head{
+    float:left;
+    width:100%;
+}
+.state-col{
+    float:left;
+}
+.state-heading{
+    font-size: 18px;
+    color: #65930c;
+    text-transform: uppercase;
+    margin: 15px 0 5px 10px;
+    float: left;
+    width: 84%;
+}
+.couting{
+    float:left;
+    margin:8px 0 0;
+}
+.state-content p{
+    font-size: 13px;
+    color:#505050;
+    padding:0 0% 0 13%;
+    float:left;
+    font-weight: 500;
+    margin:0 0 10px 0;
+}
+.blue{
+    color:#264472;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 15px 0 5px 10px;
+    float: left;
+    width: 84%;
+}
+.state-right{
+    width:48%;
+    margin-left: 4%;
+    float:right;
+    position: relative;
+}
+.sec-btn{
+    background:url(../images/sec-btn.png);
+    border-radius: 5px;
+    color: #fff;
+    margin:50px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 0;
+    border: none;
+    text-transform: uppercase;
+    width: 90%;
+    cursor: pointer;
+}
+.sec-btn:hover{
+    opacity: 0.9;
+}
+.sec-arrow {
+    position: absolute;
+    right: -14px;
+    bottom: 42px;
+}
+.footer{
+    float:left;
+    width:96%;
+    padding:25px 2%;
+    background:#222222;
+}
+.copyright{
+    font-size:13px;
+    color:#ababab;
+    float:left;
+    width: 50%;
+}
+.footer-nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 50% !important;
+    text-align: right;
+}
+.footer-nav li{
+    color:#ababab;
+    margin:0;
+    list-style: none;
+    display: inline;
+    padding:0 1.5%;
+}
+.footer-nav li a{
+    font-size: 13px;
+    color:#ababab;
+    text-decoration: none;
+}
+.footer-nav li a:hover{
+    color:#c2bfbf;
+}
+.resolve-wrap{
+    width:100%;
+    float:left;
+    margin:0;
+    text-align: center;
+    padding:40px 0 45px 0;
+    background:#ebf4f8;
+}
+.resolve-head{
+    font-size:34px;
+    text-transform: uppercase;
+    color:#84aebd;
+    font-weight: 500;
+}
+.resolve-head span{
+    color:#65930c;
+}
+.res-sec{
+    font-size: 24px;
+    color:#626363;
+    text-transform: uppercase;
+    margin:0 0 35px;
+    padding:0;
+    float: left;
+    width:100%;
+}
+.graph-wrap {
+    width: 80%;
+    margin: 0 0 0 20%;
+    float: left;
+    text-align: center;
+}
+.g1{
+    width:25%;
+    margin:0;
+    float:left;
+}
+.g2{
+    width:26%;
+    margin:52px 0 0;
+    float:left;
+}
+.g-head{
+    font-size: 16px;
+    color:#d59108;
+    text-transform: uppercase;
+    float:left;
+    width:100%;
+}
+.sec{
+    color:#264472;
+}
+.g3{
+    width:25%;
+    margin:52px 0 0;
+    float:left;
+}
+.third{
+    color:#b70000;
+}
+.result {
+    color: #666767;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px 0 0;
+    text-align: center;
+    width: 100%;
+}
+.form p{
+    font-size: 11px;
+    color:#7ab1cd;
+    text-align: center;
+}
+.form a{
+    text-decoration: none;
+    color:#040e14;
+}
+.testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    color: #353535;
+    position: relative;
+    padding: 0 2.6% 0 2.5%;
+    margin: 50px 0 0;
+    float: left;
+    width: 92%;
+}
+.test-strong {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    margin: 10px 0 40px 2.5%;
+    float: left;
+}
+.open{
+    margin: 0px 0 0px -12px;
+    float: left;
+}
+.close {
+    bottom: 10px;
+    position: relative;
+}
+.owl-pagination{
+    display: none;
+}
+.contact-ban{
+    background:url(../images/contact-ban.png) no-repeat;
+    float: left;
+    min-height: 316px;
+    width: 100%;
+    position:relative;
+}
+.con-one {
+    color: #fff;
+    font-weight:300;
+    float: right;
+    text-align:center;
+    font-size: 34px;
+    text-shadow:1px 1px #172a3b;
+    width: 60%;
+    margin:20px 15px 0;
+}
+.con-one span{
+    font-weight:bold;
+}
+.con-arrow {
+    position: absolute;
+    right: 35px;
+    top: 100px;
+}
+.con-btn {
+    background: url("../images/con-btn.png") repeat;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    padding: 12px 0;
+    text-shadow: 1px 1px #af4308;
+    text-transform: uppercase;
+    width: 37%;
+}
+.con-btn:hover{
+    opacity:0.9;
+}
+.btn-wrap {
+    float: right;
+    margin: 80px 12% 0 0;
+    text-align: right;
+    width: 88%;
+}
+.cont-head{
+    font-size:32px;
+    color:#8db246;
+    font-weight: bold;
+    margin: 24px 0 12px;
+    text-transform:uppercase;
+    width:100%;
+    float:left;
+    text-align: center;
+}
+.cont-address {
+    margin: 0 auto 18px;
+    text-align: center;
+}
+.cont-content{
+    background:#ebf4f8;
+    border-bottom: 1px solid #c8e1ea;
+    border-top: 1px solid #c8e1ea;
+    float: left;
+    padding: 0 10%;
+    width: 80%;
+    margin:0 0 80px;
+}
+.col-wrap p{
+    color:#5d5c5c;
+    font-size:15px;
+    margin:0;
+}
+
+.cont-col {
+    float: left;
+    width: 55%;
+    text-align:center;
+    margin:25px 0;
+}
+
+.col-wrap {
+    float: left;
+    margin: 22px 0 0 7px;
+}
+.col-wrap strong{
+    color:#a0b008;
+    font-size:15px;
+    font-weight:normal;
+}
+
+.col-wrap strong a{
+    color:#a0b008;
+    font-size:15px;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+.cont-img {
+    float: left;
+}
+.con-blue{
+    color:#294a7c !important;
+}
+.con-blue a{
+    color:#294a7c !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.con-add{
+    width:45%;
+}
+.about-ban{
+    background:url(../images/about-ban.png) no-repeat;
+    min-height: 316px;
+    float:left;
+    box-shadow:0 2px 5px 0 #e4e4e4 inset;
+    background-size:100% 100%;
+    width:100%;
+    position: relative;
+}
+.about-ban strong {
+    color: #264472;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 25px 0 0 2%;
+    width: 64%;
+    text-align: center;
+    float: left;
+}
+.about-ban span{
+    color:#86ad3a;
+    font-weight: 400;
+}
+.about-arrow {
+    left: 3%;
+    position: absolute;
+    top: 30%;
+}
+.aboutbtn{
+    width: 89%;
+    float: left;
+    margin: 0 0 0 11%;
+}
+.about-btn {
+    background: url("../images/about-btn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 85px 0 0;
+    padding: 11px 0;
+    text-shadow: 1px 1px #af4308;
+    text-transform: uppercase;
+    width: 37%;
+}
+.about-btn:hover{
+    opacity: 0.9;
+}
+.rate-wrap{
+    background:#ebf4f8;
+    border-top: 1px solid #c4dee8;
+    border-bottom: 1px solid #c4dee8;
+    float: left;
+    width:100%;
+}
+.rate-wrap h1{
+    color:#264472;
+    font-size: 36px;
+    text-transform: uppercase;
+    width:100%;
+    text-align: center;
+    margin:40px 0 0;
+    float: left;
+}
+.quick{
+    font-size: 27px;
+    float:left;
+    width:100%;
+    color:#303030;
+    text-transform: uppercase;
+    text-align: center;
+    margin:10px 0 0;
+}
+.easy {
+    color: #8db246;
+    float: left;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 0 0 11px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.easy span{
+    text-decoration: underline;
+}
+.about-columns{
+    float:left;
+    width:100%;
+}
+.about-columns{
+    float:left;
+    width:80%;
+    margin:35px 0 5px;
+    padding:0 10%;
+}
+.about-col{
+    float:left;
+    width:33.3%;
+    margin:0;
+    position:relative;
+    text-align:center;
+}
+.about-col .img{
+    float:left;
+    width:100%;
+}
+.about-col strong {
+    color: #353535;
+    float: left;
+    font-size: 16px;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.about-col p{
+    font-size:13px;
+    font-weight:500;
+    line-height:16px;
+    color:#505050;
+}
+.about-arr{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mortgage-wrap {
+    float: left;
+    width: 94%;
+    background: #fff;
+    border-bottom: 1px solid #e9e9e9;
+    margin: 0px 3%;
+    padding: 50px 0 35px;
+    text-align: center;
+}
+.mortgage-wrap h1{
+    font-size:32px;
+    color:#8db246;
+    float:left;
+    width:100%;
+    margin:0 0 20px;
+    text-align:center;
+}
+.mortgage-wrap h1 span{
+    color:#264472;
+}
+.mortgage-wrap p{
+    font-size:15px;
+    color:#5d5c5c;
+}
+.mortgage-does{
+    float:left;
+    width:100%;
+    margin:0;
+    padding:40px 0 80px 0;
+}
+.mort-one{
+    font-size:32px;
+    color:#264472;
+    float:left;
+    text-align:center;
+    width:100%;
+    line-height:25px;
+}
+.mort-two{
+    font-size:36px;
+    text-align:center;
+    color:#8db246;
+    float:left;
+    width:100%;
+    margin:0 0 15px;
+}
+.mortgage-wrap p {
+    color: #5d5c5c;
+    float: left;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+    width: 100%;
+}
+.mortgage-does {
+    float: left;
+    width: 96%;
+    margin: 0;
+    padding: 40px 2% 80px;
+    text-align: center;
+}
+.mortgage-does p{
+    color:#5d5c5c;
+    font-size:15px;
+    margin:0;
+    line-height:22px;
+}
+.btn-holder {
+    margin: 0 auto;
+    width: 57%;
+}
+.footer-btn {
+    background: url("../images/about-btn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 35px 0 0;
+    padding: 11px 0;
+    text-shadow: 1px 1px #af4308;
+    text-transform: uppercase;
+    float:left;
+    width: 60%;
+    text-decoration: none;
+}
+.footer-btn:hover{
+    opacity: 0.9;
+}
+.footerbtn {
+    float: left;
+    margin:0;
+    width: 100%;
+}
+.a2 {
+    float: left;
+    margin:0 -30px 0 30px;
+}
+.a1 {
+    float: left;
+    margin:0 30px 0 -30px;
+}
+
+.consumer-choice .small-logo-cc{
+    width: 70% !important;
+    height: 50px !important;
+}
+
+.consumer-choice .call-now{
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+.consumer-choice .number{
+    font-size: 20px !important;
+    line-height: 24px !important;
+}
+
+
+.consumer-choice .verisignlogo {
+    width: 30%;
+    margin-right: 10px;
+    display: inline-block !important;
+}
+
+.consumer-choice .etrustlogo {
+    width: 25%;
+    display: inline-block !important;
+    margin-top: 0px;
+}
+
+.consumer-choice .header-sec{
+    width: 35% !important;
+}
+
+.consumer-choice .header-right {
+    float: right;
+    margin: 0 !important;
+}
+
+.consumer-choice .header-right p{
+    margin: 0 !important;
+    text-align: center;
+}
+
+.consumer-choice .cc-below-list{
+    font-size: 18px;
+    line-height: 22px;
+    color: #264472;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.consumer-choice .cc-below-list-desc{
+    font-size: 16px;
+    line-height: 22px;
+    color: #666;
+    margin: 10px 0;
+    text-align: left; 
+}
+
+.consumer-choice  .cc-alert{
+    background: #264472;
+    padding: 15px !important;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    margin: 10px 0 0px;
+    text-align: left; 
+}
+
+.paid-ads-block , .paid-ads-block *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.paid-ads-block .paid-ads-row{
+    border: 1px solid #ccc !important;
+    display: inline-block;
+    width: 100%;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-left{    
+    float: left;
+    width: 30% !important;
+    display: inline-block;
+    position: relative;
+    padding: 0 25px;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-right{
+    float: left;
+    width: 45% !important;
+    display: inline-block;
+    padding: 15px 25px;
+    position: relative;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-btn{
+    float: left;
+    width: 25% !important;
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-left .star-icon{
+    position: absolute;
+    left: -18px;
+    top: 40px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-left a{
+    display: inline-block;
+    text-align: center;
+    float: none;
+    padding: 15px 0;
+} 
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;    
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-right .ad-title-link{
+    font-size: 16px;
+    line-height: 22px;
+    color: #264472;
+    margin: 0px 0 10px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-right ul{
+    padding-left: 20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-right ul li{
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    margin: 0px 0 5px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn{
+    padding: 0px 25px !important;
+    height: 34px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    line-height: 34px !important;
+    text-align: center !important;
+    color: #fff !important;
+    display: inline-block;
+    border-radius: 5px !important;
+    width: auto !important;
+    background: #264472 !important;
+    text-decoration: none;
+}
+
+.paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn:hover , 
+.paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn:focus{
+    background: #0F3063 !important;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .paid-ads-block .paid-ads-row .paid-ads-left{    
+        float: left;
+        width: 100% !important;
+        margin-bottom: 5px; 
+        margin-top: 15px;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-btn{
+        float: left;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn{
+        margin-bottom: 15px !important;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-left a{
+        padding: 0px !important;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-left a img{
+        max-height: 60px !important;
+        max-width: 200px !important;
+        display: inline-block;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-right{
+        float: left;
+        width: 100% !important;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-left .star-icon{
+        display: none !important; 
+    }
+    .consumer-choice .verisignlogo{
+        width: 30%;
+    }
+
+    .consumer-choice .etrustlogo{
+        width: 30%;
+    }
+    .consumer-choice  .header-sec {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 10px 0;
+    }
+
+    .consumer-choice .cc-below-list-desc , .consumer-choice .cc-below-list {
+        padding: 0 15px !important;
+    }
+
+} 
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .paid-ads-block .paid-ads-row .paid-ads-left .star-icon{
+        display: none !important; 
+    }
+    .consumer-choice .verisignlogo{
+        width: 15%;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn{
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .consumer-choice .etrustlogo{
+        width: 15%;
+    }
+
+    .consumer-choice  .header-sec {
+        width: 100% !important;
+        text-align: center !important;
+        margin: 10px 0;
+    }
+
+    .consumer-choice .small-logo-cc {
+        width: 40% !important;
+    }
+
+    .consumer-choice .cc-below-list-desc , .consumer-choice .cc-below-list {
+        padding: 0 15px !important;
+    }
+
+}   
+
+@media screen and (min-width: 1200px){
+
+    .paid-ads-block .paid-ads-row .paid-ads-left .star-icon{
+        position: absolute;
+        left: -18px;
+        top: 40px;
+        width: 36px;
+        height: 36px;
+        display: inline-block;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn{
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .paid-ads-block .paid-ads-row .paid-ads-btn .visit-site-btn{
+        padding: 0px 25px !important;
+        height: 34px !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px !important;
+        line-height: 34px !important;
+        text-align: center !important;
+        color: #fff !important;
+        display: inline-block;
+        border-radius: 5px !important;
+        width: auto !important;
+        background: #264472 !important;
+        text-decoration: none;
+        /*position: absolute;
+        right: -50px;
+        top: 40px;*/
+    }
+}
+
+@media screen and (max-width:1100px){
+    .head-one{
+        font-size:25px;
+    }
+    .head-one span{
+        font-size:38px;
+    }
+}
+
+
+
+@media screen and (max-width:1050px){
+    .arrow{
+        display:none;
+    }
+    
+    .logos ul li .bbb{
+        width:11%;
+    }
+    .con-one{
+        font-size: 30px;
+    }
+    .con-btn{
+        font-size: 20px;
+    }
+    .about-ban strong{
+        font-size:35px;
+    }
+    .about-ban{
+        min-height:310px;
+    }
+}
+@media screen and (max-width:1000px){
+    .header-sec{
+        width:48%;
+    }
+    .point strong{
+        font-size:13px;
+    }
+    .head-one{
+        font-size:24px;
+    }
+    .head-one span{
+        font-size:37px;
+    }
+    .inner-head p {
+        font-size: 15px;
+        margin: 8px 3% 0 3%;
+    }
+    .head-sec{
+        font-size:18px;
+    }
+    .footer-nav{
+        width:55%;
+    }
+    .logos{
+        width:96%;
+        padding:20px 2% 30px 2%;
+    }
+    .logos ul li .yahoo{
+        width:11%;
+    }
+    .inner-head h1{
+        font-size:28px;
+    }
+    .cont-content{
+        width:84%;
+        padding:0 8%;
+    }
+    .about-ban strong{
+        font-size:34px;
+    }
+    .about-btn{
+        font-size: 20px;
+        margin:85px 0 53px;
+    }
+    .rate-wrap h1{
+        font-size:32px;
+    }
+    .quick{
+        font-size:25px;
+        margin:8px 0 0;
+    }
+    .easy{
+        font-size:45px;
+    }
+    .mortgage-wrap h1{
+        font-size:30px;
+    }
+    .mort-two{
+        font-size:34px;
+    }
+    .mort-one{
+        font-size:30px;
+    }
+    .about-btn{
+
+    }
+    .about-ban{
+        min-height: 0;
+
+    }
+}
+@media screen and (max-width:960px){
+    .header-sec{
+        width:44%;
+    }
+    .inner-head h1{
+        font-size:27px;
+    }
+    .point strong{
+        font-size:12px;
+        margin:8px 0 0 5px;
+    }
+    .head-one{
+        font-size:23px;
+    }
+    .head-one span{
+        font-size:35px;
+    }
+    .logos strong{
+        width:100%;
+        text-align:center;
+    }
+    .logos ul li a{
+        width:10%;
+    }
+    .logos ul li .yahoo{
+        width:12%;
+    }
+    .logos ul li .bbb{
+        width:14%;
+    }
+    .testimonial p{
+        font-size:16px;
+    }
+    .work-head{
+        font-size:30px;
+    }
+    .work-wrap{
+        padding:40px 2% 45px 2%;
+    }
+    .state-head{
+        font-size:30px;
+    }
+    .resolve-head{
+        font-size:32px;
+    }
+    .res-sec{
+        font-size:22px;
+    }
+    .con-one{
+        text-align: right;
+        font-size: 28px;
+    }
+    .con-btn{
+        width:35%;
+    }
+    .con-arrow{
+        right:25px;
+    }
+    .cont-head{
+        font-size:30px;
+    }
+    .cont-content{
+        width:88%;
+        padding:0 6%;
+    }
+    .about-ban strong{
+        font-size:31px;
+    }
+    .about-arrow{
+        left:1%;
+    }
+    .rate-wrap h1{
+        font-size:30px;
+    }
+    .quick{
+        font-size:23px;
+    }
+    .easy{
+        font-size:42px;
+    }
+
+    .about-col strong{
+        font-size:14px;
+    }
+    .about-col p{
+        font-size:12px;
+    }
+    .mortgage-wrap h1{
+        font-size:28px;
+    }
+    .mortgage-wrap p br{
+        display:none;
+    }
+    .mort-one{
+        font-size:28px;
+    }
+    .mort-two{
+        font-size:32px;
+    }
+    .about-btn{
+        margin:85px 0 44px;;
+    }
+}
+@media screen and (max-width:900px){
+    .header-sec{
+        width:41%;
+    }
+    .number{
+        font-size:32px;
+    }
+    .call-now{
+        font-size:16px;
+    }
+    .head-one{
+        font-size:22px;
+    }
+    .head-one span{
+        font-size:32px;
+    }
+    .inner-head h1{
+        font-size:23px;
+    }
+    .inner-head p{
+        font-size:14px;
+    }
+    .statement-wrap{
+        width:88%;
+        padding:5% 6%;
+    }
+    .point{
+        width:100%;
+        margin:0 0 10px;
+    }
+    .head-sec{
+        font-size:16px;
+    }
+    .con-one{
+        font-size:25px;
+    }
+    .con-arrow{
+        right:15px;
+        top:85px;
+    }
+    .con-btn{
+        font-size:18px;
+        width:33%;
+    }
+    .cont-content{
+        width:94%;
+        padding:0 3%;
+    }
+    .cont-head{
+        font-size:28px;
+        margin:30px 0;
+    }
+    .cont-content{
+        margin:0 0 75px;
+    }
+    .btn-wrap{
+        width:89%;
+        margin:80px 11% 0 0;
+    }
+    .about-ban strong{
+        font-size:30px;
+    }
+    .about-btn{
+        font-size:19px;
+        margin:72px 0 44px;
+    }
+    .rate-wrap h1{
+        font-size:28px;
+    }
+    .quick{
+        font-size:22px;
+    }
+    .easy{
+        font-size:40px;
+    }
+    .about-columns{
+        width:84%;
+        padding:0 8%;
+    }
+
+}
+@media screen and (max-width:850px){
+    .logo{
+        width:100%;
+        text-align:center;
+    }
+    .header-sec {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .header-right{
+        width:100%;
+        text-align:center;
+    }
+    .head-one{
+        font-size:21px;
+    }
+    .head-one span{
+        font-size:30px;
+    }
+    .head-sec{
+        font-size:15px;
+    }
+    .logos ul li a{
+        width:11%;
+    }
+    .logos ul li .yahoo{
+        width:13%;
+    }
+    .logos ul li .ver{
+        width:16%;
+    }
+    .logos ul li .google{
+        margin:0 0 0 2%;
+    }
+    .inner-head h1{
+        font-size:22px;
+    }
+    .form .form-heading{
+        font-size:16px;
+    }
+    .form label{
+        font-size:14px;
+    }
+    .resolve-head{
+        font-size:30px;
+    }
+    .res-sec{
+        font-size:20px;
+    }
+    .g1{
+        width:27%;
+    }
+    .g2{
+        width:27%;
+    }
+    .g3{
+        width:27%;
+    }
+    .work-head{
+        font-size:28px;
+    }
+    .column{
+        width:50%;
+    }
+    .sec-img{
+        display:none;
+    }
+    .state-head{
+        font-size:28px;
+    }
+    .thank-wrap > p{
+        font-size:14px;
+    }
+    .con-one{
+        font-size:22px;
+    }
+    .con-arrow{
+        right:5px;
+    }
+    .con-btn{
+        width:35%;
+    }
+    .cont-col{
+        width:100%;
+        text-align: center;
+        margin:25px 0 10px;
+    }
+    .cont-img{
+        width:100%;
+    }
+    .col-wrap{
+        width:100%;
+        margin:10px 0 0 0;
+    }
+    .cont-content{
+        padding:0 3% 3%;
+    }
+    .con-btn{
+        font-size:17px;
+    }
+    .about-ban strong{
+        font-size:28px;
+    }
+    .about-columns {
+        padding: 0 6%;
+        width: 88%;
+    }
+    .btn-holder{
+        width:60%;
+    }
+    .mortgage-wrap h1{
+        font-size:25px;
+    }
+    .mortgage-wrap p{
+        font-size:14px;
+    }
+    .mort-one{
+        font-size:25px;
+    }
+    .mort-two{
+        font-size:30px;
+    }
+    .footer-btn{
+        font-size:20px;
+    }
+    .mortgage-does p{
+        font-size:14px;
+    }
+    .about-btn {
+        margin: 65px 0 39px;
+    }
+    .contact-ban{
+        background-size:100% 100%;
+        min-height:280px;
+    }
+}
+@media screen and (max-width:800px){
+    .right{
+        width:100%;
+    }
+    .footer-nav{
+        width:58%;
+    }
+    .left{
+        width:100%;
+    }
+    .head-one{
+        float:left;
+        width:100%;
+        position:relative;
+        z-index:1;
+        margin:30px 0 0 0;
+        padding:0;
+    }
+    .head-sec{
+        position:relative;
+        z-index:1;
+        float:left;
+        width:100%;
+        padding:0;
+    }
+    .man img {
+        margin: 0;
+        position: relative;
+        top: -16px;
+        z-index: 0;
+    }
+    .point{
+        width:50%;
+    }
+    .points {
+        padding: 0 2% 0% 2%;
+        margin: 0 0 0 8%;
+        position: relative;
+        z-index: 1;
+        bottom: 43px;
+    }
+    .g1{
+        width:29%;
+    }
+    .g2{
+        width:29%;
+    }
+    .g3{
+        width:29%;
+    }
+    .graph-wrap{
+        margin:0 0 0 15%;
+    }
+    .resolve-wrap{
+        padding:40px 0;
+    }
+    .logos ul li .google{
+        margin:0 0 0 1%;
+        width:12%;
+    }
+    .logos ul li .yahoo{
+        width:14%;
+    }
+    .logos ul li .ver{
+        width:18%;
+        margin:0;
+    }
+    .logos ul li a{
+        margin: 0 0 0 15px;
+    }
+    .resolve-head{
+        font-size:28px;
+    }
+    .res-sec{
+        font-size:19px;
+    }
+    .work-head{
+        font-size:25px;
+    }
+    .state-head{
+        font-size:25px;
+    }
+    .work-wrap{
+        padding:35px 2% 25px 2%;
+    }
+    .thank-wrap{
+        width:96%;
+        min-height: auto;
+    }
+    .thank-wrap > p{
+        margin:30px 0 15px;
+    }
+    .thank-wrap h1{
+        font-size:36px;
+    }
+    .con-one{
+        font-size:20px;
+    }
+    .con-btn{
+        width:36%;
+    }
+    .btn-wrap{
+        margin:80px 12% 0 0;
+        width:88%;
+    }
+    .con-arrow{
+        top: 70px;
+    }
+    .about-ban strong{
+        font-size:25px;
+    }
+    .about-arrow{
+        display:none;
+    }
+    .aboutbtn {
+        margin: 0 0 0 5%;
+        width: 95%;
+    }
+    .rate-wrap h1{
+        font-size:25px;
+    }
+    .quick{
+        font-size:20px;
+    }
+    .easy{
+        font-size:37px;
+    }
+    .about-columns {
+        padding: 0 3%;
+        width: 94%;
+    }
+    .btn-holder{
+        width:63%;
+    }
+    .about-columns {
+        padding: 0 0;
+        width: 100%;
+    }
+    .about-btn {
+        margin: 57px 0 39px;
+    }
+    .contact-ban{
+        min-height:250px;
+    }
+}
+@media screen and (max-width:750px){
+    .control{
+        width:50%;
+        margin:0 auto;
+    }
+    .logos ul li .google{
+        width:60%;
+    }
+    .logos ul li .yahoo{
+        width:80%;
+    }
+    .logos ul li .ask{
+        width:54%;
+        margin:0 8% 0 0;
+    }
+    .logos ul li .bing{
+        width:77%;
+    }
+    .logos ul li .ver{
+        width:82%;
+    }
+    .logos ul li .bbb{
+        width:73%;
+        margin:0;
+    }
+    .logos ul li {
+        float: left;
+        margin: 0;
+        width: 50%;
+    }
+    .g1{
+        width:30%;
+    }
+    .g2{
+        width:30%;
+    }
+    .g3{
+        width:30%;
+    }
+    .graph-wrap{
+        width:90%;
+        margin:0 0 0 10%;
+    }
+    .resolve-head{
+        font-size:25px;
+    }
+    .res-sec{
+        font-size:18px;
+    }
+    .column {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .col-arrow{
+        display:none;
+    }
+    .col-head{
+        margin:0 0 5px;
+    }
+    .state-left{
+        width:100%;
+    }
+    .state-right{
+        width:100%;
+        margin:0;
+    }
+    .sec-btn{
+        width:94%;
+    }
+    .state-content p{
+        padding:0 0 0 8%;
+    }
+    .copyright{
+        width:100%;
+        text-align:center;
+    }
+    .footer-nav {
+        width: 100% !important;
+        text-align: center;
+        margin: 10px 0 0;
+    }
+    .logos ul li .google{
+        width:63%;
+    }
+    .logos ul li .ver{
+        width:81%;
+    }
+    .btn-wrap{
+        margin:80px 13% 0 0;
+        width:87%;
+    }
+    .about-ban strong{
+        font-size:22px;
+    }
+    .about-btn{
+        font-size:18px;
+    }
+    .rate-wrap h1{
+        font-size:23px;
+    }
+    .quick{
+        font-size:19px;
+    }
+    .easy{
+        font-size:35px;
+    }
+    .about-col{
+        width:96%;
+        padding:0 2%;
+    }
+    .about-col br{
+        display:none;
+    }
+    .about-col strong{
+        margin:10px 0 10px;
+    }
+    .about-col{
+        margin:0 0 20px;
+    }
+    .about-columns{
+        margin:5px 0;
+    }
+    .about-arr img{
+        display:none;
+    }
+    .btn-holder{
+        width:68%;
+    }
+    .about-btn {
+        margin: 50px 0 39px;
+    }
+}
+@media screen and (max-width:700px){
+    .control{
+        width:60%;
+    }
+    .logos ul li .google{
+        width:59%;
+    }
+    .logos ul li .yahoo{
+        width:69%;
+    }
+    .logos ul li .ask{
+        width:45%;
+    }
+    .logos ul li .bing{
+        width:66%;
+    }
+    .logos ul li .bbb{
+        width:66%;
+    }
+    .points{
+        margin:0 0 0 5%;
+    }
+    .logos ul li .ver{
+        width:72%;
+    }
+    .thank-wrap > p{
+        line-height:20px;
+        font-size:14px;
+    }
+    .con-btn{
+        width:42%;
+    }
+    .btn-holder{
+        width:73%;
+    }
+    .about-btn {
+        margin: 35px 0 39px;
+    }
+    .btn-wrap{
+        margin:50px 2% 0 0;
+    }
+    .con-arrow{
+        display:none;
+    }
+    .contact-ban {
+        min-height: 220px;
+    }
+}
+@media screen and (max-width:650px){
+    .points{
+        margin:0 0 0 4%;
+    }
+    .control{
+        width:65%;
+    }
+    .graph-wrap {
+        width: 96%;
+        margin: 0 0 0 4%;
+    }
+    .resolve-head{
+        font-size:22px;
+    }
+    .res-sec{
+        font-size:16px;
+    }
+    .state-head{
+        font-size:22px;
+    }
+    .work-head{
+        font-size:22px;
+    }
+    .g2{
+        width:35%;
+    }
+    .testimonial p{
+        font-size:15px;
+    }
+    .test-strong{
+        font-size:17px;
+    }
+    .logos ul li .ver{
+        width:71%;
+    }
+    .btn-wrap{
+        width: 98%;
+    }
+    .about-ban strong{
+        font-size:21px;
+        width:65%;
+    }
+    .about-btn{
+        font-size:16px;
+    }
+    .rate-wrap h1{
+        font-size:20px;
+    }
+    .quick{
+        font-size:17px;
+    }
+    .easy{
+        font-size:32px;
+    }
+    .mortgage-wrap h1{
+        font-size:20px;
+    }
+    .mort-one{
+        font-size:22px;
+    }
+    .mort-two{
+        font-size:27px;
+    }
+    .btn-holder{
+        width:77%;
+    }
+    .footer-btn{
+        font-size:18px;
+    }
+    .rate-wrap h1{
+        font-size:18px;
+    }
+    .quick{
+        font-size:15px;
+    }
+    .easy{
+        font-size:28px;
+    }
+    .btn-holder{
+        width:84%;
+    }
+    .about-btn {
+        margin: 35px 0 28px;
+    }
+    .con-btn{
+        font-size:16px;
+    }
+}
+@media screen and (max-width:600px){
+    .points{
+        margin:0 0 0 2%;
+    }
+    .control{
+        width:70%;
+    }
+    .btn{
+        font-size:24px;
+    }
+    .graph-wrap{
+        width:100%;
+        margin:0;
+    }
+    .g1{
+        width:100%;
+    }
+    .g2{
+        width:100%;
+    }
+    .g3{
+        width:100%;
+    }
+    .sec-btn {
+        width:92%;
+    }
+    .testimonial p{
+        font-size:14px;
+    }
+    .test-strong{
+        font-size:16px;
+    }
+    .resolve-head{
+        font-size:20px;
+    }
+    .res-sec{
+        font-size:15px;
+    }
+    .logos ul li .ver{
+        width:73%;
+    }
+    .con-one{
+        width:94%;
+        font-size:18px;
+    }
+    .about-ban strong{
+        font-size:18px;
+    }
+    .about-btn{
+        font-size:14px;
+        width:42%;
+        margin:29px 0 28px;
+    }
+    .btn-holder{
+        width:90%;
+    }
+    .contact-ban {
+        min-height: 200px;
+    }
+
+}
+@media screen and (max-width:550px){
+    .control{
+        width:79%;
+    }
+    .resolve-head{
+        font-size:18px;
+    }
+    .points{
+        margin:0;
+    }
+    .thank-wrap > p{
+        font-size:13px;
+        margin:15px 0 15px;
+    }
+    .thank-wrap h1{
+        font-size:32px;
+        margin:15px 0 0;
+    }
+    .inner-head h1{
+        font-size:19px;
+    }
+    .about-ban strong{
+        width:67%;
+    }
+    .btn-holder{
+        width:96%;
+    }
+    .a1{
+        margin:0 10px 0 -10px;
+    }
+    .a2{
+        margin:0 -10px 0 10px;
+    }
+    .con-one{
+        font-size:16px;
+    }
+    .con-btn{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:500px){
+    .point{
+        width:100%;
+    }
+    .head-one{
+        font-size:20px;
+    }
+    .head-one span{
+        font-size:28px;
+    }
+    .about-ban strong{
+        font-size: 15px;
+        text-align:left;
+        margin:20px 0 0 2%;
+    }
+    .a1{
+        display: none;
+    }
+    .a2{
+        display: none;
+    }
+    .footer-btn{
+        width:100%;
+    }
+    .aboutbtn {
+        margin: 0 0 0 2%;
+        width: 98%;
+    }
+    .about-btn{
+        font-size:13px;
+    }
+    .contact-ban {
+        min-height: 180px;
+    }
+    .con-one{
+        font-size:14px;
+    }
+    .btn-wrap {
+        margin: 30px 2% 0 0;
+    }
+    .con-btn{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:450px){
+    .inner-head p{
+        margin:0 3%;
+    }
+    .form .form-heading{
+        font-size:15px;
+    }
+    .form label{
+        font-size:13px;
+    }
+    .form select{
+        padding:8px 2%;
+    }
+    .head-one{
+        font-size:18px;
+    }
+    .head-one span{
+        font-size:26px;
+    }
+    .head-sec{
+        font-size:14px;
+    }
+    .control{
+        width:96.5%;
+    }
+    .btn{
+        font-size:22px;
+    }
+    .resolve-head{
+        font-size:16px;
+    }
+    .res-sec{
+        font-size:14px;
+    }
+    .state-head{
+        font-size:18px;
+    }
+    .work-head{
+        font-size:20px;
+    }
+    .columns-wrap{
+        margin:25px 0 0;
+    }
+    .couting{
+        width:100%;
+        text-align:center;
+    }
+    .blue{
+        margin:15px 0 5px 0;
+        width:100%;
+        text-align:center;
+    }
+    .state-heading{
+        margin:15px 0 5px 0;
+        width:100%;
+        text-align:center;
+    }
+    .state-content p {
+        padding: 0 5%;
+        text-align: center;
+        width: 90%;
+    }
+    .sec-btn{
+        width:89%;
+    }
+    .footer-nav li{
+        padding:0.5%;
+    }
+    .about-ban strong{
+        width:75%;
+        margin:15px 0 0 2%;
+        font-size:14px;
+    }
+    .about-btn{
+        font-size: 12px;
+    }
+    .rate-wrap h1{
+        font-size: 16px;
+    }
+    .quick{
+        font-size: 13px;
+    }
+    .easy{
+        font-size:25px;
+    }
+    .mortgage-wrap h1{
+        font-size:18px;
+    }
+    .mortgage-wrap p{
+        font-size: 12px;
+    }
+    .mort-one{
+        font-size:22px;
+    }
+    .mort-two{
+        font-size: 25px;
+    }
+    .mortgage-does p{
+        font-size:12px;
+    }
+    .con-one {
+        font-size: 13px;
+    }
+    .con-btn{
+        padding:9px 0;
+    }
+}
+@media screen and (max-width:400px){
+    .btn{
+        font-size:20px;
+    }
+    .inner-head p{
+        font-size:13px;
+    }
+    .head-one{
+        font-size:16px;
+    }
+    .head-one span{
+        font-size:23px;
+    }
+    .head-sec{
+        font-size:13px;
+    }
+    .control{
+        width:95%;
+        margin:0 0 0 5px;
+    }
+    .logos ul li .ver{
+        width:84%;
+        margin:0;
+    }
+    .logos ul li .bbb{
+        width:72%;
+    }
+    .resolve-head{
+        font-size:14px;
+    }
+    .sec-btn{
+        font-size:18px;
+        width:88%;
+    }
+    .footer-nav li{
+        padding:0;
+    }
+    .footer-nav li a{
+        font-size:12px;
+    }
+    .res-sec{
+        font-size:13px;
+    }
+    .about-ban strong{
+        width:90%;
+        margin:10px 0 0 2%;
+        font-size:12px;
+    }
+    .about-btn{
+        width:45%;
+        font-size: 11px;
+    }
+    .mort-one{
+        font-size: 18px;
+    }
+    .mort-two{
+        font-size:22px;
+    }
+    .footer-btn{
+        font-size:16px;
+    }
+    .contact-ban {
+        min-height: 160px;
+    }
+    .con-one {
+        font-size: 12px;
+        margin: 20px 5px 0;
+    }
+}
+@media screen and (max-width:350px){
+    .head-one{
+        font-size:15px;
+    }
+    .head-one span{
+        font-size:20px;
+    }
+    .head-sec{
+        font-size:12px;
+    }
+    .control {
+        width: 45%;
+        margin: 0 auto;
+    }
+    .logos ul li{
+        width:100%;
+    }
+    .logos ul li .google{
+        width:75%;
+    }
+    .logos ul li .yahoo {
+        width: 83%;
+        margin: 0;
+    }
+    .logos ul li .ask{
+        margin:0 0 0 10%;
+    }
+    .logos ul li .bing{
+        margin:0 0 0 5%;
+    }
+    .logos ul li .ver{
+        width:104%;
+    }
+    .logos ul li .bbb{
+        width:83%;
+        margin:15px 0 0 2%;
+    }
+    .state-head{
+        font-size:16px;
+    }
+    .sec-btn{
+        font-size:16px;
+    }
+    .footer-nav li a{
+        font-size:11px;
+    }
+    .about-ban strong{
+        font-size:11px;
+    }
+    .rate-wrap h1{
+        font-size:14px;
+    }
+    .easy{
+        font-size:22px;
+    }
+    .about-col p{
+        font-size:11px;
+    }
+    .mort-one{
+        font-size:16px;
+    }
+    .mort-two{
+        font-size:20px;
+    }
+    .footer-btn{
+        font-size:15px;
+    }
+    .about-btn{
+        padding:7px 0;
+    }
+    .con-one {
+        font-size: 11px;
+    }
+    .cont-head{
+        font-size:25px;
+    }
+}
+

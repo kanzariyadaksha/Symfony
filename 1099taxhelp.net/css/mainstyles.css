@@ -1,0 +1,337 @@
+html{
+    font-size: 16px !important;
+}
+
+a , a:focus , a:hover , a img{
+    outline: 0;
+}
+
+.small-logos .header{
+    background-color: #fff;
+    border: none !important;
+}
+
+.row{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.two-column .debt-amt{
+    font-weight: 700 !important;
+    font-style: normal;
+}
+
+.theme-color-form {
+    color: #0e53a1;
+    font-weight: 300;
+}
+
+
+.verified-logo{
+	margin-left: 20%;
+}
+
+.verisignlogo{
+    width: 12%;
+    margin-right: 10px; 
+    display: inline-block !important;
+    margin-top: -5px; 
+}
+.etrustlogo{
+    width: 10%;
+    display: inline-block !important;
+    margin-top: 0px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .hero-banner h1{
+        font-size: 20px !important;
+        line-height: 30px !important;
+        margin-top: 40px !important;
+    }
+
+    .trust-logos{
+        margin-left: 0px !important;
+    }
+
+    .tab-pane label.step-1-check-all{
+        width: 100% !important;
+    }
+
+    .verified-logo{
+		margin-left: 0% !important;
+	}
+
+    .verisignlogo{
+        width: 20%;
+    }
+
+    .etrustlogo{
+        width: 20%;
+    }
+
+    .news-strip img{
+        margin: 0 auto !important;
+    }
+
+    .two-column .debt-amt{
+        height: 50px !important;
+    }
+
+    .small-logos .header{
+        padding: 0px !important;
+    }
+
+    .small-logos .header .logo{
+        padding: 10px 0 !important;
+    }
+
+    .small-logos .header {
+        background-color: #0e53a1;
+    }
+
+    .two-column .debt-amt {
+        font-size: 17px !important;
+        line-height: 24px !important;
+        font-weight: 700 !important;
+    }
+   .negotiate .content img{
+        margin: 0 auto !important;
+    }
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .trust-logos{
+        margin-left: 10% !important;
+    }
+
+    .news-strip img{
+        margin: 0 auto !important;
+    }
+
+    .negotiate .content img{
+        margin: 0 auto !important;
+    }
+
+     .two-column .debt-amt{
+        margin: 5px 6px !important;
+     }
+
+    .small-logos .header{
+        border-bottom: 0px !important;
+    }
+
+    .verified-logo{
+		margin-left: 10%;
+	}
+
+    .verisignlogo{
+        width: 10%;
+    }
+
+    .etrustlogo{
+        width: 8%;
+    }
+
+}
+
+p {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    margin: 10px 0
+}
+
+ul {
+    list-style: square;
+    color: #c41f2c;
+}
+
+.negotiate ul{
+    list-style: square;
+    color: #c41f2c;
+}
+
+ul li {
+    font-size: 30px
+}
+ul li p {
+    color: black
+}
+.legend {
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 300;
+    color: #545454
+}
+.green-form {
+    color: #71a827;
+    font-weight: 400
+}
+section {
+    padding: 45px 0
+}
+
+button:hover {
+    background-color: #c41f2c;
+}
+.modal-dialog button {
+    width: auto;
+    height: auto;
+}
+.modal-dialog button:hover {
+    background-color: transparent
+}
+.modal-dialog img {
+    height: auto;
+}
+.modal-dialog ul {
+    list-style: disc;
+    color: inherit;
+}
+.modal-dialog ul li {
+    font-size: inherit;
+}
+.inner-box .form-control {
+    width: 60% ;
+    margin: 0 auto;
+    font-size: 16px;
+    /*margin-left: 20%;*/
+}
+select.form-control  {
+    font-size: 18px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tab-content .btn-next{
+        padding-bottom: 15px;
+        padding-top: 15px;
+}
+#section2 label {
+    margin-top: 5px;
+    width: 60%;
+    text-align: left !important;
+}
+
+.progress {
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.optin {
+    margin: 10px 0;
+    display: inline-block;
+}
+.input-error {
+    border: 1px solid #fe5e01 !important;
+    background-color: #ffefe6;
+}
+.error {
+    color: red
+}
+
+#state.form-control.error {
+    border: 1px dotted;
+    background-image: url("../images/icon-select.png") !important;
+}
+
+#state {
+    background-image: url("../images/icon-select.png") !important;
+    background-repeat: no-repeat;
+}
+
+.form-control.error {
+    border: 1px dotted;
+    background-image: url("../images/error-img.png") !important;
+}
+label.error {
+    font-size: 14px !important;
+    width: 100%;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+.contact-no{
+    font-size: 28px;
+    line-height: 34px;
+    color: #ff772b !important;
+    text-align: center;
+}
+
+.contact-no:hover , .contact-no:focus{
+    text-decoration: none;
+}
+
+.call-text{
+    font-size: 18px;
+    line-height: 24px;
+    color: #545454;
+    text-align: center;   
+    margin-top: 10px;
+    margin-bottom: 0 !important; 
+}
+
+.help-today .contact-no , .help-today .call-text {
+    color: #fff !important;
+}
+
+.help-today .call-text {
+    margin-bottom: 25px !important;
+}
+
+.truth .contact-no , .truth .call-text {
+    color: #fff !important;
+}
+
+.truth .call-text {
+    margin-bottom: 10px !important;
+}
+
+
+.nav-bg{
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.40);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.40);
+}
+
+.trust-logos{
+    text-align: left; 
+    margin-left: 20%;
+    padding-left: 20px;
+}
+
+.trust-logos.trust-logos-ftd9{
+	margin-bottom: 0px !important;
+}
+
+@media screen and (min-width: 1200px){
+
+.badge-space{
+    height: 0;
+    position: relative;
+    bottom: 135px;
+}
+
+}
+#state {
+      -webkit-appearance: none;
+       -moz-appearance: none;
+        -ms-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+}
+
+select ::-ms-expand {
+ display:none;
+}
+
+input[type=text]::-ms-clear {
+    display: none;
+}

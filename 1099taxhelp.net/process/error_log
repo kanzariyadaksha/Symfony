@@ -1,0 +1,26 @@
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag value line 11 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			        ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag result line 8 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			        ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag response line 7 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			        ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag xgdresponse line 3 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[21-Mar-2019 17:18:31 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			        ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag value line 11 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;-1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			         ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag result line 8 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;-1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			         ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag response line 7 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;-1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			         ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): Entity: line 11: parser error : Premature end of data in tag xgdresponse line 3 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			&lt;value&gt;-1 in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[08-Apr-2019 00:45:17 America/Los_Angeles] PHP Warning:  simplexml_load_string(): 			         ^ in /home/taxhelp1099/public_html/assets/leadscore/Leadscore2.php on line 29
+[26-Apr-2019 05:50:07 America/Los_Angeles] PHP Warning:  file_get_contents(http://www.freshstart-initiative.net/drips/scrambled_ids.php?sub_id=Reagan Savage&amp;aff_id=Reagan Savage&amp;s2=Reagan Savage): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/taxhelp1099/public_html/process/routes/store.php on line 261

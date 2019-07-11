@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.wraper{
+    background:url("../images/bg.png");
+    margin:0;
+    padding:0;
+}
+.column{
+    width:24.5%;
+}
+.head-one{
+    font-size:25px;
+    float:none;
+    width:100%;
+    margin:0;
+}
+.head-sec{
+    float:left;
+    position:relative;
+    width:100%;
+    margin:0;
+    z-index:1
+}
+.point strong{
+    margin:8px 0 0 4px;
+    width:90%;
+    float:left;
+}
+.head-one span{
+    font-size:38px;
+}
+.points{
+    z-index:2;
+    position:relative;
+}
+.point{
+    margin:0 0 10px 0;
+}
+.point strong{
+    margin:8px 0 0 0;
+    font-size:13px;
+    float:left;
+    width:85%;
+    text-align: left;
+}
+.form p{
+    padding:0 0 10px;
+}
+.head-sec{
+    float:none !important;
+}
+.man{
+    position:relative;
+    z-index:0;
+}
+.man img{
+    top:0;
+}
+.about-ban strong{
+    font-size:35px;
+}
